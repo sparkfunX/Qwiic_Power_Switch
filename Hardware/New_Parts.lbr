@@ -214,6 +214,7 @@ MSOP&lt;br&gt;
 </symbols>
 <devicesets>
 <deviceset name="PCA9536" prefix="U">
+<description>PCA9536 4-Bit I2C I/O Expander</description>
 <gates>
 <gate name="U1" symbol="PCA9536" x="0" y="0"/>
 </gates>
@@ -231,7 +232,7 @@ MSOP&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15034" constant="no"/>
 </technology>
 </technologies>
 </device>
