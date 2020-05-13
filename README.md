@@ -2,10 +2,10 @@
 
 A power switch for your Qwiic system.
 
-![Top](https://github.com/PaulZC/Qwiic_Power_Switch/blob/master/img/Top.PNG)
-![Bottom](https://github.com/PaulZC/Qwiic_Power_Switch/blob/master/img/Bottom.PNG)
+![Top](https://github.com/sparkfun/Qwiic_Power_Switch/blob/master/img/Top.PNG)
+![Bottom](https://github.com/sparkfun/Qwiic_Power_Switch/blob/master/img/Bottom.PNG)
 
-![Dimensions](https://github.com/PaulZC/Qwiic_Power_Switch/blob/master/img/Dimensions.PNG)
+![Dimensions](https://github.com/sparkfun/Qwiic_Power_Switch/blob/master/img/Dimensions.PNG)
 
 The Qwiic power switch is a simple little board which can be used to switch the power to your Qwiic
 system. Many Qwiic boards draw very little current when not being used, but there are some that draw
@@ -18,7 +18,7 @@ current draw and extend your battery life when you need to.
 
 ## Library
 
-- **[Arduino Library](https://github.com/PaulZC/Qwiic_Power_Switch_Library)** - Library for the power switch
+- **[Arduino Library](https://github.com/sparkfun/Qwiic_Power_Switch_Library)** - Library for the power switch
 
 Enjoy!
 
