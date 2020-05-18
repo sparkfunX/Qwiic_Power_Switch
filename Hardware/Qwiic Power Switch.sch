@@ -8573,14 +8573,14 @@ Physical Characteristics
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<pin name="SDA1" x="-15.24" y="-2.54" length="middle"/>
-<pin name="SCL1" x="-15.24" y="0" length="middle"/>
-<pin name="EN" x="15.24" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="VREF1" x="-15.24" y="2.54" length="middle" direction="pwr"/>
-<pin name="VREF2" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="SCL2" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="SDA2" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="SDA1" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="SCL1" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="EN" x="12.7" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="VREF1" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="VREF2" x="12.7" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="SCL2" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="SDA2" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
 <text x="-10.16" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="1.778" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="97"/>
@@ -9043,7 +9043,7 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VREF1"/>
-<wire x1="165.1" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 <wire x1="162.56" y1="106.68" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -9116,7 +9116,7 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="165.1" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="162.56" y1="99.06" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -9182,7 +9182,7 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA1"/>
-<wire x1="165.1" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
 <label x="160.02" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -9210,7 +9210,7 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL1"/>
-<wire x1="165.1" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
 <label x="160.02" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -9266,12 +9266,6 @@ Switch</text>
 <label x="134.62" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G1" pin="A"/>
 <wire x1="137.16" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="EN"/>
-<wire x1="195.58" y1="109.22" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
-<label x="187.96" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -9348,7 +9342,7 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA2"/>
-<wire x1="195.58" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
 <label x="200.66" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -9371,16 +9365,29 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL2"/>
-<wire x1="195.58" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
 <label x="200.66" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VREF2"/>
-<wire x1="195.58" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="106.68" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO3" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="GPIO3"/>
+<wire x1="193.04" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="195.58" y="147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="EN"/>
+<wire x1="193.04" y1="109.22" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
+<label x="187.96" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9395,8 +9402,8 @@ Switch</text>
 <approved hash="104,1,86.36,55.88,J3,2,VOUT,,,"/>
 <approved hash="104,1,86.36,27.94,J4,1,GND,,,"/>
 <approved hash="104,1,86.36,30.48,J4,2,VOUT,,,"/>
-<approved hash="104,1,165.1,106.68,U3,VREF1,3.3V,,,"/>
-<approved hash="104,1,195.58,106.68,U3,VREF2,N$12,,,"/>
+<approved hash="104,1,167.64,106.68,U3,VREF1,3.3V,,,"/>
+<approved hash="104,1,193.04,106.68,U3,VREF2,N$12,,,"/>
 <approved hash="113,1,28.6173,72.3223,J5,,,,,"/>
 <approved hash="113,1,89.5773,72.3223,J6,,,,,"/>
 <approved hash="113,1,180.34,105.643,U3,,,,,"/>
