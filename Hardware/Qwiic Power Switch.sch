@@ -8550,21 +8550,42 @@ Physical Characteristics
 &lt;li&gt;Pitch: .5 mm&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<smd name="P1" x="-1.57" y="0.734" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P2" x="-1.57" y="0.234" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P3" x="-1.57" y="-0.266" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P4" x="-1.57" y="-0.766" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P5" x="1.53" y="-0.766" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P6" x="1.53" y="-0.266" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P7" x="1.53" y="0.234" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P8" x="1.53" y="0.734" dx="0.8" dy="0.3" layer="1"/>
-<wire x1="-1.22" y1="-1.066" x2="1.18" y2="-1.066" width="0.05" layer="51"/>
-<wire x1="1.18" y1="-1.066" x2="1.18" y2="1.034" width="0.05" layer="51"/>
-<wire x1="1.18" y1="1.034" x2="-1.22" y2="1.034" width="0.05" layer="51"/>
-<wire x1="-1.22" y1="1.034" x2="-1.22" y2="-1.066" width="0.05" layer="51"/>
+<smd name="P1" x="-1.55" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-1.55" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-1.55" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-1.55" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="1.55" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="1.55" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="1.55" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="1.55" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<wire x1="-1.15" y1="-1" x2="1.15" y2="-1" width="0.05" layer="51"/>
+<wire x1="1.15" y1="-1" x2="1.15" y2="1" width="0.05" layer="51"/>
+<wire x1="1.15" y1="1" x2="-1.15" y2="1" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="1" x2="-1.15" y2="-1" width="0.05" layer="51"/>
 <circle x="-1.32" y="1.234" radius="0.1581125" width="0" layer="21"/>
 <text x="-1.22" y="1.434" size="0.5" layer="25">&gt;NAME</text>
 <text x="-1.22" y="-2.066" size="0.5" layer="27">&gt;VALUE</text>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
+<circle x="-0.685" y="0.726" radius="0.1581125" width="0" layer="21"/>
+<rectangle x1="-1.925" y1="0.625" x2="-1.175" y2="0.875" layer="31"/>
+<rectangle x1="-1.925" y1="0.125" x2="-1.175" y2="0.375" layer="31"/>
+<rectangle x1="-1.925" y1="-0.375" x2="-1.175" y2="-0.125" layer="31"/>
+<rectangle x1="-1.925" y1="-0.875" x2="-1.175" y2="-0.625" layer="31"/>
+<rectangle x1="1.175" y1="0.625" x2="1.925" y2="0.875" layer="31"/>
+<rectangle x1="1.175" y1="0.125" x2="1.925" y2="0.375" layer="31"/>
+<rectangle x1="1.175" y1="-0.375" x2="1.925" y2="-0.125" layer="31"/>
+<rectangle x1="1.175" y1="-0.875" x2="1.925" y2="-0.625" layer="31"/>
+<rectangle x1="-2" y1="0.55" x2="-1.1" y2="0.95" layer="29"/>
+<rectangle x1="-2" y1="0.05" x2="-1.1" y2="0.45" layer="29"/>
+<rectangle x1="-2" y1="-0.45" x2="-1.1" y2="-0.05" layer="29"/>
+<rectangle x1="-2" y1="-0.95" x2="-1.1" y2="-0.55" layer="29"/>
+<rectangle x1="1.1" y1="0.55" x2="2" y2="0.95" layer="29"/>
+<rectangle x1="1.1" y1="0.05" x2="2" y2="0.45" layer="29"/>
+<rectangle x1="1.1" y1="-0.45" x2="2" y2="-0.05" layer="29"/>
+<rectangle x1="1.1" y1="-0.95" x2="2" y2="-0.55" layer="29"/>
 </package>
 </packages>
 <symbols>

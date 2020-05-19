@@ -3661,21 +3661,42 @@ Physical Characteristics
 &lt;li&gt;Pitch: .5 mm&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<smd name="P1" x="-1.57" y="0.734" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P2" x="-1.57" y="0.234" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P3" x="-1.57" y="-0.266" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P4" x="-1.57" y="-0.766" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P5" x="1.53" y="-0.766" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P6" x="1.53" y="-0.266" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P7" x="1.53" y="0.234" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P8" x="1.53" y="0.734" dx="0.8" dy="0.3" layer="1"/>
-<wire x1="-1.22" y1="-1.066" x2="1.18" y2="-1.066" width="0.05" layer="51"/>
-<wire x1="1.18" y1="-1.066" x2="1.18" y2="1.034" width="0.05" layer="51"/>
-<wire x1="1.18" y1="1.034" x2="-1.22" y2="1.034" width="0.05" layer="51"/>
-<wire x1="-1.22" y1="1.034" x2="-1.22" y2="-1.066" width="0.05" layer="51"/>
+<smd name="P1" x="-1.55" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-1.55" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-1.55" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-1.55" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="1.55" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="1.55" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="1.55" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="1.55" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<wire x1="-1.15" y1="-1" x2="1.15" y2="-1" width="0.05" layer="51"/>
+<wire x1="1.15" y1="-1" x2="1.15" y2="1" width="0.05" layer="51"/>
+<wire x1="1.15" y1="1" x2="-1.15" y2="1" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="1" x2="-1.15" y2="-1" width="0.05" layer="51"/>
 <circle x="-1.32" y="1.234" radius="0.1581125" width="0" layer="21"/>
 <text x="-1.22" y="1.434" size="0.5" layer="25">&gt;NAME</text>
 <text x="-1.22" y="-2.066" size="0.5" layer="27">&gt;VALUE</text>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
+<circle x="-0.685" y="0.726" radius="0.1581125" width="0" layer="21"/>
+<rectangle x1="-1.925" y1="0.625" x2="-1.175" y2="0.875" layer="31"/>
+<rectangle x1="-1.925" y1="0.125" x2="-1.175" y2="0.375" layer="31"/>
+<rectangle x1="-1.925" y1="-0.375" x2="-1.175" y2="-0.125" layer="31"/>
+<rectangle x1="-1.925" y1="-0.875" x2="-1.175" y2="-0.625" layer="31"/>
+<rectangle x1="1.175" y1="0.625" x2="1.925" y2="0.875" layer="31"/>
+<rectangle x1="1.175" y1="0.125" x2="1.925" y2="0.375" layer="31"/>
+<rectangle x1="1.175" y1="-0.375" x2="1.925" y2="-0.125" layer="31"/>
+<rectangle x1="1.175" y1="-0.875" x2="1.925" y2="-0.625" layer="31"/>
+<rectangle x1="-2" y1="0.55" x2="-1.1" y2="0.95" layer="29"/>
+<rectangle x1="-2" y1="0.05" x2="-1.1" y2="0.45" layer="29"/>
+<rectangle x1="-2" y1="-0.45" x2="-1.1" y2="-0.05" layer="29"/>
+<rectangle x1="-2" y1="-0.95" x2="-1.1" y2="-0.55" layer="29"/>
+<rectangle x1="1.1" y1="0.55" x2="2" y2="0.95" layer="29"/>
+<rectangle x1="1.1" y1="0.05" x2="2" y2="0.45" layer="29"/>
+<rectangle x1="1.1" y1="-0.45" x2="2" y2="-0.05" layer="29"/>
+<rectangle x1="1.1" y1="-0.95" x2="2" y2="-0.55" layer="29"/>
 </package>
 </packages>
 </library>
@@ -4340,8 +4361,6 @@ Physical Characteristics
 <wire x1="10.414" y1="9.017" x2="9.945" y2="9.486" width="0.6096" layer="1"/>
 <wire x1="10.45" y1="11.725" x2="9.82" y2="11.725" width="0.3048" layer="1"/>
 <wire x1="9.82" y1="11.725" x2="9.481" y2="11.386" width="0.3048" layer="1"/>
-<wire x1="9.225" y1="8.235" x2="10.394" y2="8.235" width="0.3048" layer="1"/>
-<wire x1="10.394" y1="8.235" x2="10.414" y2="8.255" width="0.3048" layer="1"/>
 <wire x1="3.175" y1="4.191" x2="7.239" y2="4.191" width="0.3048" layer="16"/>
 <wire x1="6.604" y1="16.764" x2="7.8105" y2="15.5575" width="0.3048" layer="1"/>
 <wire x1="14.036" y1="8.24" x2="14.747" y2="8.24" width="0.3048" layer="1"/>
@@ -4355,6 +4374,8 @@ Physical Characteristics
 <wire x1="9.144" y1="4.953" x2="10.287" y2="4.953" width="0.3048" layer="1"/>
 <wire x1="10.287" y1="4.953" x2="10.414" y2="4.826" width="0.3048" layer="1"/>
 <wire x1="7.239" y1="4.191" x2="8.001" y2="4.953" width="0.3048" layer="16"/>
+<wire x1="9.245" y1="8.251" x2="10.41" y2="8.251" width="0.3048" layer="1"/>
+<wire x1="10.41" y1="8.251" x2="10.414" y2="8.255" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.2032" layer="16" isolate="0.3048">
@@ -4434,10 +4455,11 @@ Physical Characteristics
 <wire x1="15.936" y1="10.475" x2="15.936" y2="9.54" width="0.3048" layer="1"/>
 <wire x1="14.95" y1="13.675" x2="16.088" y2="13.675" width="0.3048" layer="1"/>
 <wire x1="16.088" y1="13.675" x2="16.129" y2="13.716" width="0.3048" layer="1"/>
-<wire x1="9.225" y1="8.735" x2="7.648" y2="8.735" width="0.3048" layer="1"/>
 <wire x1="7.648" y1="8.735" x2="7.62" y2="8.763" width="0.3048" layer="1"/>
 <via x="12.7" y="12.446" extent="1-16" drill="0.3048"/>
 <via x="6.477" y="14.859" extent="1-16" drill="0.3048"/>
+<wire x1="9.245" y1="8.751" x2="7.664" y2="8.751" width="0.3048" layer="1"/>
+<wire x1="7.664" y1="8.751" x2="7.648" y2="8.735" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R4" pad="2"/>
@@ -4488,8 +4510,8 @@ Physical Characteristics
 <wire x1="6.088" y1="12.2" x2="6.35" y2="11.938" width="0.3048" layer="1"/>
 <wire x1="6.35" y1="3.175" x2="6.858" y2="2.667" width="0.3048" layer="1"/>
 <wire x1="9.652" y1="2.667" x2="6.858" y2="2.667" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="11.938" x2="6.35" y2="7.239" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="7.239" x2="6.35" y2="3.175" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="11.938" x2="6.35" y2="7.112" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="7.112" x2="6.35" y2="3.175" width="0.3048" layer="1"/>
 <wire x1="4.064" y1="12.573" x2="3.683" y2="12.192" width="0.3048" layer="16"/>
 <via x="3.683" y="12.192" extent="1-16" drill="0.3048"/>
 <wire x1="5.08" y1="12.2" x2="5.072" y2="12.192" width="0.3048" layer="1"/>
@@ -4503,8 +4525,9 @@ Physical Characteristics
 <wire x1="9.088" y1="12.375" x2="8.89" y2="12.573" width="0.3048" layer="1"/>
 <via x="8.89" y="12.573" extent="1-16" drill="0.3048"/>
 <wire x1="8.89" y1="12.573" x2="4.064" y2="12.573" width="0.3048" layer="16"/>
-<wire x1="9.225" y1="7.235" x2="6.354" y2="7.235" width="0.3048" layer="1"/>
-<wire x1="6.354" y1="7.235" x2="6.35" y2="7.239" width="0.3048" layer="1"/>
+<wire x1="9.245" y1="7.251" x2="7.64103125" y2="7.251" width="0.3048" layer="1"/>
+<wire x1="7.64103125" y1="7.251" x2="7.50203125" y2="7.112" width="0.3048" layer="1"/>
+<wire x1="7.50203125" y1="7.112" x2="6.35" y2="7.112" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U2" pad="6"/>
@@ -4537,8 +4560,8 @@ Physical Characteristics
 <wire x1="7.112" y1="7.874" x2="6.858" y2="7.874" width="0.3048" layer="16"/>
 <wire x1="6.858" y1="7.874" x2="5.08" y2="9.652" width="0.3048" layer="16"/>
 <wire x1="5.08" y1="9.652" x2="5.08" y2="10.287" width="0.3048" layer="16"/>
-<wire x1="9.225" y1="7.735" x2="8.10895" y2="7.735" width="0.3048" layer="1"/>
-<wire x1="8.10895" y1="7.735" x2="7.96995" y2="7.874" width="0.3048" layer="1"/>
+<wire x1="9.245" y1="7.751" x2="8.09295" y2="7.751" width="0.3048" layer="1"/>
+<wire x1="8.09295" y1="7.751" x2="7.96995" y2="7.874" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R2" pad="2"/>
@@ -4668,7 +4691,6 @@ Physical Characteristics
 <wire x1="19.05" y1="13.589" x2="19.439" y2="13.2" width="0.3048" layer="1"/>
 <wire x1="17.78" y1="18.249" x2="18.962" y2="18.249" width="0.3048" layer="1"/>
 <wire x1="18.962" y1="18.249" x2="19.05" y2="18.161" width="0.3048" layer="1"/>
-<wire x1="12.325" y1="7.235" x2="12.831" y2="7.235" width="0.3048" layer="1"/>
 <wire x1="13.6398" y1="6.4262" x2="13.97" y2="6.4262" width="0.3048" layer="1"/>
 <via x="13.97" y="6.4262" extent="1-16" drill="0.3048"/>
 <wire x1="13.97" y1="6.4262" x2="14.4272" y2="6.4262" width="0.3048" layer="16"/>
@@ -4676,8 +4698,9 @@ Physical Characteristics
 <via x="21.717" y="13.081" extent="1-16" drill="0.3048"/>
 <wire x1="21.717" y1="13.081" x2="21.598" y2="13.2" width="0.3048" layer="1"/>
 <wire x1="21.598" y1="13.2" x2="20.32" y2="13.2" width="0.3048" layer="1"/>
-<wire x1="12.831" y1="7.235" x2="13.6398" y2="6.4262" width="0.3048" layer="1"/>
 <wire x1="14.4272" y1="6.4262" x2="21.082" y2="13.081" width="0.3048" layer="16"/>
+<wire x1="12.345" y1="7.251" x2="12.815" y2="7.251" width="0.3048" layer="1"/>
+<wire x1="12.815" y1="7.251" x2="13.6398" y2="6.4262" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCL_OUT">
 <contactref element="R7" pad="1"/>
@@ -4685,14 +4708,12 @@ Physical Characteristics
 <contactref element="J4" pad="4"/>
 <contactref element="U3" pad="P6"/>
 <wire x1="17.78" y1="24.13" x2="18.161" y2="24.13" width="0.3048" layer="1"/>
-<wire x1="19.812" y1="22.479" x2="19.812" y2="19.685" width="0.3048" layer="1"/>
-<wire x1="19.812" y1="19.685" x2="19.812" y2="19.05" width="0.3048" layer="1"/>
+<wire x1="19.812" y1="22.479" x2="19.812" y2="19.05" width="0.3048" layer="1"/>
 <wire x1="19.812" y1="19.05" x2="19.812" y2="15.216" width="0.3048" layer="1"/>
 <wire x1="20.32" y1="14.708" x2="19.812" y2="15.216" width="0.3048" layer="1"/>
 <wire x1="20.32" y1="14.708" x2="20.32" y2="14.2" width="0.3048" layer="1"/>
 <wire x1="18.161" y1="24.13" x2="19.812" y2="22.479" width="0.3048" layer="1"/>
 <wire x1="21.121" y1="19.05" x2="19.812" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="12.325" y1="7.735" x2="13.093" y2="7.735" width="0.3048" layer="1"/>
 <wire x1="13.462" y1="7.366" x2="13.97" y2="7.366" width="0.3048" layer="1"/>
 <via x="13.97" y="7.366" extent="1-16" drill="0.3048"/>
 <wire x1="13.97" y1="7.366" x2="14.605" y2="7.366" width="0.3048" layer="16"/>
@@ -4701,16 +4722,17 @@ Physical Characteristics
 <via x="21.717" y="14.097" extent="1-16" drill="0.3048"/>
 <wire x1="21.717" y1="14.097" x2="21.614" y2="14.2" width="0.3048" layer="1"/>
 <wire x1="21.614" y1="14.2" x2="20.32" y2="14.2" width="0.3048" layer="1"/>
-<wire x1="13.093" y1="7.735" x2="13.462" y2="7.366" width="0.3048" layer="1"/>
+<wire x1="12.345" y1="7.751" x2="13.077" y2="7.751" width="0.3048" layer="1"/>
+<wire x1="13.077" y1="7.751" x2="13.462" y2="7.366" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="U3" pad="P7"/>
 <contactref element="R8" pad="1"/>
-<wire x1="12.325" y1="8.235" x2="11.577" y2="8.235" width="0.3048" layer="1"/>
 <wire x1="11.303" y1="8.509" x2="11.303" y2="9.017" width="0.3048" layer="1"/>
 <wire x1="11.645" y1="9.359" x2="11.645" y2="10.16" width="0.3048" layer="1"/>
-<wire x1="11.577" y1="8.235" x2="11.303" y2="8.509" width="0.3048" layer="1"/>
 <wire x1="11.303" y1="9.017" x2="11.645" y2="9.359" width="0.3048" layer="1"/>
+<wire x1="12.345" y1="8.251" x2="11.561" y2="8.251" width="0.3048" layer="1"/>
+<wire x1="11.561" y1="8.251" x2="11.303" y2="8.509" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO3">
 <contactref element="U2" pad="5"/>
@@ -4718,11 +4740,11 @@ Physical Characteristics
 <wire x1="10.45" y1="13.675" x2="11.344" y2="13.675" width="0.3048" layer="1"/>
 <wire x1="11.344" y1="13.675" x2="11.684" y2="13.335" width="0.3048" layer="1"/>
 <wire x1="11.684" y1="11.684" x2="12.065" y2="11.303" width="0.3048" layer="1"/>
-<wire x1="12.573" y1="11.303" x2="12.827" y2="11.049" width="0.3048" layer="1"/>
-<wire x1="12.827" y1="9.237" x2="12.325" y2="8.735" width="0.3048" layer="1"/>
+<wire x1="12.827" y1="11.049" x2="12.573" y2="11.303" width="0.3048" layer="1"/>
 <wire x1="11.684" y1="13.335" x2="11.684" y2="11.684" width="0.3048" layer="1"/>
 <wire x1="12.065" y1="11.303" x2="12.573" y2="11.303" width="0.3048" layer="1"/>
-<wire x1="12.827" y1="11.049" x2="12.827" y2="9.237" width="0.3048" layer="1"/>
+<wire x1="12.345" y1="8.751" x2="12.827" y2="9.233" width="0.3048" layer="1"/>
+<wire x1="12.827" y1="9.233" x2="12.827" y2="11.049" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
