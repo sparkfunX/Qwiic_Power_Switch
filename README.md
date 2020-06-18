@@ -28,6 +28,4 @@ The heart of the Qwiic Power Switch is the TI PCA9536 4-Bit I2C I/O Expander. We
 
 - **[Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Power_Switch_Arduino_Library)** - Library for the power switch
 
-Enjoy!
-
-**_Paul_**
+**_Your friends at SparkFun_**
