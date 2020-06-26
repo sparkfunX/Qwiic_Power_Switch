@@ -2,10 +2,9 @@
 
 A power switch for your Qwiic system.
 
-![Top](https://github.com/sparkfun/Qwiic_Power_Switch/blob/master/img/Top.PNG)
-![Bottom](https://github.com/sparkfun/Qwiic_Power_Switch/blob/master/img/Bottom.PNG)
+![Power_Switch-01.jpg](https://cdn.sparkfun.com//assets/parts/1/5/6/2/8/16740-Power_Switch-01.jpg)
 
-![Dimensions](https://github.com/sparkfun/Qwiic_Power_Switch/blob/master/img/Dimensions.PNG)
+[Qwiic Power Switch (SPX-16740)](https://www.sparkfun.com/products/16740)
 
 The Qwiic Power Switch is a simple little board which can be used to switch the power to your Qwiic
 system. Many Qwiic boards draw very little current when not being used, but there are some that draw
