@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="7" fill="1" visible="no" active="no"/>
@@ -108,15 +109,46 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="no"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="no"/>
@@ -156,6 +188,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
@@ -586,18 +620,18 @@
 <wire x1="123.698" y1="119.888" x2="123.698" y2="127.127" width="0.4064" layer="21"/>
 <wire x1="123.698" y1="127.127" x2="123.063" y2="127.762" width="0.4064" layer="21"/>
 <wire x1="123.063" y1="127.762" x2="111.252" y2="127.762" width="0.4064" layer="21"/>
-<wire x1="-0.254" y1="-6.858" x2="-0.254" y2="142.24" width="0.381" layer="46"/>
-<text x="-0.254" y="144.526" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="25.654" y1="-6.858" x2="25.654" y2="142.24" width="0.381" layer="46"/>
-<text x="25.654" y="144.526" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="51.562" y1="-6.858" x2="51.562" y2="142.24" width="0.381" layer="46"/>
-<text x="51.562" y="144.526" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="77.47" y1="-6.858" x2="77.47" y2="142.24" width="0.381" layer="46"/>
-<text x="77.47" y="144.526" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="103.378" y1="-6.858" x2="103.378" y2="142.24" width="0.381" layer="46"/>
-<text x="103.378" y="144.526" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="129.286" y1="-6.858" x2="129.286" y2="142.24" width="0.381" layer="46"/>
-<text x="129.286" y="144.526" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="-0.254" y1="-6.858" x2="-0.254" y2="136.398" width="0.381" layer="46"/>
+<text x="-0.254" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="25.654" y1="-6.858" x2="25.654" y2="136.398" width="0.381" layer="46"/>
+<text x="25.654" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="51.562" y1="-6.858" x2="51.562" y2="136.398" width="0.381" layer="46"/>
+<text x="51.562" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="77.47" y1="-6.858" x2="77.47" y2="136.398" width="0.381" layer="46"/>
+<text x="77.47" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="103.378" y1="-6.858" x2="103.378" y2="136.398" width="0.381" layer="46"/>
+<text x="103.378" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="129.286" y1="-6.858" x2="129.286" y2="136.398" width="0.381" layer="46"/>
+<text x="129.286" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-0.254" x2="142.24" y2="-0.254" width="0.381" layer="46"/>
 <text x="149.86" y="-0.254" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="25.654" x2="142.24" y2="25.654" width="0.381" layer="46"/>
@@ -643,7 +677,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -3809,7 +3843,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Switch">
+<library name="switch" urn="urn:adsk.eagle:library:380">
 <packages>
 <package name="SWITCH0">
 <rectangle x1="3.7" y1="0.68" x2="3.9" y2="0.73" layer="21"/>
@@ -4001,42 +4035,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="5.8" y1="-0.68" x2="6.05" y2="-0.63" layer="21"/>
 <rectangle x1="6.45" y1="-0.68" x2="6.7" y2="-0.63" layer="21"/>
 <rectangle x1="1.6" y1="-0.73" x2="1.7" y2="-0.68" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="New_Parts">
-<packages>
-<package name="MSOP8">
-<description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
-MSOP&lt;br&gt;
-8M-Package doc1097.pdf</description>
-<wire x1="1.23" y1="1.48" x2="1.48" y2="1.23" width="0.2032" layer="21" curve="-90" cap="flat"/>
-<wire x1="1.48" y1="-1.23" x2="1.23" y2="-1.48" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.49" y1="-1.23" x2="-1.24" y2="-1.48" width="0.2032" layer="21" curve="90"/>
-<wire x1="-1.24" y1="1.48" x2="-1.49" y2="1.23" width="0.2032" layer="21" curve="90" cap="flat"/>
-<wire x1="-1.49" y1="-1.24" x2="-1.49" y2="1.22" width="0.2032" layer="21"/>
-<wire x1="1.48" y1="1.22" x2="1.48" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="1.23" y1="1.48" x2="-1.23" y2="1.48" width="0.2032" layer="21"/>
-<wire x1="-1.24" y1="-1.48" x2="1.23" y2="-1.48" width="0.2032" layer="21"/>
-<smd name="1" x="-2.25" y="0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="2" x="-2.25" y="0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="3" x="-2.25" y="-0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="4" x="-2.25" y="-0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="5" x="2.25" y="-0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="6" x="2.25" y="-0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="7" x="2.25" y="0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<smd name="8" x="2.25" y="0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
-<rectangle x1="-2.2" y1="0.525" x2="-1.8" y2="1.425" layer="51" rot="R270"/>
-<rectangle x1="-2.2" y1="-0.125" x2="-1.8" y2="0.775" layer="51" rot="R270"/>
-<rectangle x1="-2.2" y1="-0.775" x2="-1.8" y2="0.125" layer="51" rot="R270"/>
-<rectangle x1="-2.2" y1="-1.425" x2="-1.8" y2="-0.525" layer="51" rot="R270"/>
-<rectangle x1="1.8" y1="-1.425" x2="2.2" y2="-0.525" layer="51" rot="R270"/>
-<rectangle x1="1.8" y1="-0.775" x2="2.2" y2="0.125" layer="51" rot="R270"/>
-<rectangle x1="1.8" y1="-0.125" x2="2.2" y2="0.775" layer="51" rot="R270"/>
-<rectangle x1="1.8" y1="0.525" x2="2.2" y2="1.425" layer="51" rot="R270"/>
-<circle x="-1.7574" y="1.6256" radius="0.091578125" width="0.2032" layer="21"/>
-<text x="-1.143" y="0.762" size="0.508" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.27" size="0.508" layer="27">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -4424,6 +4422,59 @@ Physical Characteristics
 </package>
 </packages>
 </library>
+<library name="SparkFun-IC-Conversion">
+<description>&lt;h3&gt;SparkFun Conversion ICs&lt;/h3&gt;
+This library is for ICs that perform analog to digital conversion, as well as digital to analog.  This includes not only strict ADCs, but audio in and out converters, decoders, thermocouple measurement ics the like.  Anything that is a single part that works between the two domains goes here.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="MSOP8">
+<description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
+MSOP&lt;br&gt;
+8M-Package doc1097.pdf</description>
+<wire x1="1.23" y1="1.48" x2="1.48" y2="1.23" width="0.2032" layer="21" curve="-90" cap="flat"/>
+<wire x1="1.48" y1="-1.23" x2="1.23" y2="-1.48" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.49" y1="-1.23" x2="-1.24" y2="-1.48" width="0.2032" layer="21" curve="90"/>
+<wire x1="-1.24" y1="1.48" x2="-1.49" y2="1.23" width="0.2032" layer="21" curve="90" cap="flat"/>
+<wire x1="-1.49" y1="-1.24" x2="-1.49" y2="1.22" width="0.2032" layer="21"/>
+<wire x1="1.48" y1="1.22" x2="1.48" y2="-1.24" width="0.2032" layer="21"/>
+<wire x1="1.23" y1="1.48" x2="-1.23" y2="1.48" width="0.2032" layer="21"/>
+<wire x1="-1.24" y1="-1.48" x2="1.23" y2="-1.48" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="2" x="-2.25" y="0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="3" x="-2.25" y="-0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="4" x="-2.25" y="-0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="5" x="2.25" y="-0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="6" x="2.25" y="-0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="7" x="2.25" y="0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="8" x="2.25" y="0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<circle x="-1.7574" y="1.6256" radius="0.091578125" width="0.2032" layer="21"/>
+<text x="-1.143" y="0.762" size="0.508" layer="25">&gt;Name</text>
+<text x="-1.27" y="-1.27" size="0.508" layer="27">&gt;Value</text>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<rectangle x1="-2.45" y1="0.8175" x2="-1.9" y2="1.1325" layer="51"/>
+<rectangle x1="-2.45" y1="0.1675" x2="-1.9" y2="0.4825" layer="51"/>
+<rectangle x1="-2.45" y1="-0.4825" x2="-1.9" y2="-0.1675" layer="51"/>
+<rectangle x1="-2.45" y1="-1.1325" x2="-1.9" y2="-0.8175" layer="51"/>
+<rectangle x1="1.9" y1="-1.1325" x2="2.45" y2="-0.8175" layer="51"/>
+<rectangle x1="1.9" y1="-0.4825" x2="2.45" y2="-0.1675" layer="51"/>
+<rectangle x1="1.9" y1="0.1675" x2="2.45" y2="0.4825" layer="51"/>
+<rectangle x1="1.9" y1="0.8175" x2="2.45" y2="1.1325" layer="51"/>
+</package>
+</packages>
+</library>
 <library name="SparkFun-Retired">
 <description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
 In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
@@ -4454,28 +4505,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="Qwiic">
-<description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - Limits for PCBWay&lt;/b&gt;
+<designrules name="Qwiic Power Switch">
+<description language="en">&lt;b&gt;2 Layer Minimum Rules for JLCPCB&lt;/b&gt;
 &lt;p&gt;
- If you're ordering from PCBWay, these are the 'free' minimums.</description>
+These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;quoted by JLCPCB&lt;/a&gt; to produce a 2-layer PCB design rules. These rules are &quot;free&quot; and generally low-cost. Going below these settings may cause the board to be not manufacturable or incur a price increase.
+&lt;ul&gt;
+&lt;li&gt;2 Layer&lt;/li&gt;
+&lt;li&gt;5mil Trace/Space&lt;/li&gt;
+&lt;li&gt;5mil Annular Rings&lt;/li&gt;
+&lt;li&gt;12mil Vias&lt;/li&gt;
+&lt;li&gt;2.5mil Stop Mask&lt;/li&gt;
+&lt;/ul&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="6mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="7mil"/>
+<param name="mdDrill" value="7mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="5mil"/>
 <param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -4486,19 +4544,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="7mil"/>
+<param name="rlMinPadTop" value="5mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="7mil"/>
+<param name="rlMinPadInner" value="5mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="7mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="7mil"/>
+<param name="rlMinViaOuter" value="5mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="7mil"/>
+<param name="rlMinViaInner" value="5mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="7mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="7mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -4507,14 +4565,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
-<param name="srMinRoundness" value="0mil"/>
-<param name="srMaxRoundness" value="0mil"/>
+<param name="srMinRoundness" value="2mil"/>
+<param name="srMaxRoundness" value="2mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
@@ -4677,7 +4735,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="19.05" y="9.906" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="27.178" y="9.906" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U2" library="New_Parts" package="MSOP8" value="PCA9536" x="12.7" y="12.7" smashed="yes" rot="R180">
+<element name="U2" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="12.7" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="12.7" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -4711,7 +4769,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$17" library="Labels-0_04" package="SCL9" value="" x="7.62" y="1.651" smashed="yes" rot="R90"/>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="11.938" y="17.145" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.684" y="18.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="11.938" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="11.938" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603" value="1k" x="15.748" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="17.399" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -4743,7 +4801,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$30" library="LED_OUT" package="LED_OUT0" value="" x="23.114" y="9.652" smashed="yes" rot="MR0"/>
 <element name="U$31" library="OUT" package="OUT0" value="" x="19.558" y="17.145" smashed="yes"/>
 <element name="U$32" library="Power" package="POWER0" value="" x="17.018" y="11.557" smashed="yes" rot="MR0"/>
-<element name="U$34" library="Switch" package="SWITCH0" value="" x="17.145" y="9.525" smashed="yes" rot="MR0"/>
+<element name="U$34" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="17.145" y="9.525" smashed="yes" rot="MR0"/>
 <element name="U$16" library="GPIO1" package="GPIO10" value="" x="17.78" y="1.651" smashed="yes" rot="MR90"/>
 <element name="U$20" library="GPIO2" package="GPIO20" value="" x="7.62" y="23.876" smashed="yes" rot="MR270"/>
 <element name="U$4" library="3.3V_Pointer" package="3#3V0" value="" x="12.7" y="1.651" smashed="yes" rot="MR90"/>
@@ -4821,7 +4879,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="44.958" y="9.906" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="53.086" y="9.906" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U4" library="New_Parts" package="MSOP8" value="PCA9536" x="38.608" y="12.7" smashed="yes" rot="R180">
+<element name="U4" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="38.608" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.243" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="38.608" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -4855,7 +4913,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$46" library="Labels-0_04" package="SCL9" value="" x="33.528" y="1.651" smashed="yes" rot="R90"/>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="37.846" y="17.145" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.592" y="18.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="37.846" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="37.846" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Resistors" package="0603" value="1k" x="41.656" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="17.399" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -4887,7 +4945,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$54" library="LED_OUT" package="LED_OUT0" value="" x="49.022" y="9.652" smashed="yes" rot="MR0"/>
 <element name="U$55" library="OUT" package="OUT0" value="" x="45.466" y="17.145" smashed="yes"/>
 <element name="U$56" library="Power" package="POWER0" value="" x="42.926" y="11.557" smashed="yes" rot="MR0"/>
-<element name="U$57" library="Switch" package="SWITCH0" value="" x="43.053" y="9.525" smashed="yes" rot="MR0"/>
+<element name="U$57" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="43.053" y="9.525" smashed="yes" rot="MR0"/>
 <element name="U$58" library="GPIO1" package="GPIO10" value="" x="43.688" y="1.651" smashed="yes" rot="MR90"/>
 <element name="U$59" library="GPIO2" package="GPIO20" value="" x="33.528" y="23.876" smashed="yes" rot="MR270"/>
 <element name="U$60" library="3.3V_Pointer" package="3#3V0" value="" x="38.608" y="1.651" smashed="yes" rot="MR90"/>
@@ -4965,7 +5023,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="70.866" y="9.906" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="78.994" y="9.906" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U7" library="New_Parts" package="MSOP8" value="PCA9536" x="64.516" y="12.7" smashed="yes" rot="R180">
+<element name="U7" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="64.516" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.151" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="64.516" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -4999,7 +5057,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$78" library="Labels-0_04" package="SCL9" value="" x="59.436" y="1.651" smashed="yes" rot="R90"/>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="63.754" y="17.145" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.5" y="18.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="63.754" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="63.754" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R21" library="SparkFun-Resistors" package="0603" value="1k" x="67.564" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="17.399" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5031,7 +5089,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$86" library="LED_OUT" package="LED_OUT0" value="" x="74.93" y="9.652" smashed="yes" rot="MR0"/>
 <element name="U$87" library="OUT" package="OUT0" value="" x="71.374" y="17.145" smashed="yes"/>
 <element name="U$88" library="Power" package="POWER0" value="" x="68.834" y="11.557" smashed="yes" rot="MR0"/>
-<element name="U$89" library="Switch" package="SWITCH0" value="" x="68.961" y="9.525" smashed="yes" rot="MR0"/>
+<element name="U$89" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="68.961" y="9.525" smashed="yes" rot="MR0"/>
 <element name="U$90" library="GPIO1" package="GPIO10" value="" x="69.596" y="1.651" smashed="yes" rot="MR90"/>
 <element name="U$91" library="GPIO2" package="GPIO20" value="" x="59.436" y="23.876" smashed="yes" rot="MR270"/>
 <element name="U$92" library="3.3V_Pointer" package="3#3V0" value="" x="64.516" y="1.651" smashed="yes" rot="MR90"/>
@@ -5109,7 +5167,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="96.774" y="9.906" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="104.902" y="9.906" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U10" library="New_Parts" package="MSOP8" value="PCA9536" x="90.424" y="12.7" smashed="yes" rot="R180">
+<element name="U10" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="90.424" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.059" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="90.424" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5143,7 +5201,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$110" library="Labels-0_04" package="SCL9" value="" x="85.344" y="1.651" smashed="yes" rot="R90"/>
 <element name="Q4" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="89.662" y="17.145" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.408" y="18.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="89.662" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="89.662" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R29" library="SparkFun-Resistors" package="0603" value="1k" x="93.472" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="17.399" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5175,7 +5233,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$118" library="LED_OUT" package="LED_OUT0" value="" x="100.838" y="9.652" smashed="yes" rot="MR0"/>
 <element name="U$119" library="OUT" package="OUT0" value="" x="97.282" y="17.145" smashed="yes"/>
 <element name="U$120" library="Power" package="POWER0" value="" x="94.742" y="11.557" smashed="yes" rot="MR0"/>
-<element name="U$121" library="Switch" package="SWITCH0" value="" x="94.869" y="9.525" smashed="yes" rot="MR0"/>
+<element name="U$121" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="94.869" y="9.525" smashed="yes" rot="MR0"/>
 <element name="U$122" library="GPIO1" package="GPIO10" value="" x="95.504" y="1.651" smashed="yes" rot="MR90"/>
 <element name="U$123" library="GPIO2" package="GPIO20" value="" x="85.344" y="23.876" smashed="yes" rot="MR270"/>
 <element name="U$124" library="3.3V_Pointer" package="3#3V0" value="" x="90.424" y="1.651" smashed="yes" rot="MR90"/>
@@ -5253,7 +5311,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="122.682" y="9.906" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="130.81" y="9.906" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U13" library="New_Parts" package="MSOP8" value="PCA9536" x="116.332" y="12.7" smashed="yes" rot="R180">
+<element name="U13" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="116.332" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.967" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="116.332" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5287,7 +5345,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$142" library="Labels-0_04" package="SCL9" value="" x="111.252" y="1.651" smashed="yes" rot="R90"/>
 <element name="Q5" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="115.57" y="17.145" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.316" y="18.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="115.57" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="115.57" y="17.145" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R37" library="SparkFun-Resistors" package="0603" value="1k" x="119.38" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.618" y="17.399" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5319,7 +5377,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$150" library="LED_OUT" package="LED_OUT0" value="" x="126.746" y="9.652" smashed="yes" rot="MR0"/>
 <element name="U$151" library="OUT" package="OUT0" value="" x="123.19" y="17.145" smashed="yes"/>
 <element name="U$152" library="Power" package="POWER0" value="" x="120.65" y="11.557" smashed="yes" rot="MR0"/>
-<element name="U$153" library="Switch" package="SWITCH0" value="" x="120.777" y="9.525" smashed="yes" rot="MR0"/>
+<element name="U$153" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="120.777" y="9.525" smashed="yes" rot="MR0"/>
 <element name="U$154" library="GPIO1" package="GPIO10" value="" x="121.412" y="1.651" smashed="yes" rot="MR90"/>
 <element name="U$155" library="GPIO2" package="GPIO20" value="" x="111.252" y="23.876" smashed="yes" rot="MR270"/>
 <element name="U$156" library="3.3V_Pointer" package="3#3V0" value="" x="116.332" y="1.651" smashed="yes" rot="MR90"/>
@@ -5397,7 +5455,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="19.05" y="35.814" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="27.178" y="35.814" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U16" library="New_Parts" package="MSOP8" value="PCA9536" x="12.7" y="38.608" smashed="yes" rot="R180">
+<element name="U16" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="12.7" y="38.608" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="38.989" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="12.7" y="38.608" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5431,7 +5489,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$174" library="Labels-0_04" package="SCL9" value="" x="7.62" y="27.559" smashed="yes" rot="R90"/>
 <element name="Q6" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="11.938" y="43.053" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.684" y="44.323" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="11.938" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="11.938" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R45" library="SparkFun-Resistors" package="0603" value="1k" x="15.748" y="43.307" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5463,7 +5521,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$182" library="LED_OUT" package="LED_OUT0" value="" x="23.114" y="35.56" smashed="yes" rot="MR0"/>
 <element name="U$183" library="OUT" package="OUT0" value="" x="19.558" y="43.053" smashed="yes"/>
 <element name="U$184" library="Power" package="POWER0" value="" x="17.018" y="37.465" smashed="yes" rot="MR0"/>
-<element name="U$185" library="Switch" package="SWITCH0" value="" x="17.145" y="35.433" smashed="yes" rot="MR0"/>
+<element name="U$185" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="17.145" y="35.433" smashed="yes" rot="MR0"/>
 <element name="U$186" library="GPIO1" package="GPIO10" value="" x="17.78" y="27.559" smashed="yes" rot="MR90"/>
 <element name="U$187" library="GPIO2" package="GPIO20" value="" x="7.62" y="49.784" smashed="yes" rot="MR270"/>
 <element name="U$188" library="3.3V_Pointer" package="3#3V0" value="" x="12.7" y="27.559" smashed="yes" rot="MR90"/>
@@ -5541,7 +5599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="44.958" y="35.814" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="53.086" y="35.814" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U19" library="New_Parts" package="MSOP8" value="PCA9536" x="38.608" y="38.608" smashed="yes" rot="R180">
+<element name="U19" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="38.608" y="38.608" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.243" y="38.989" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="38.608" y="38.608" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5575,7 +5633,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$206" library="Labels-0_04" package="SCL9" value="" x="33.528" y="27.559" smashed="yes" rot="R90"/>
 <element name="Q7" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="37.846" y="43.053" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.592" y="44.323" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="37.846" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="37.846" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R53" library="SparkFun-Resistors" package="0603" value="1k" x="41.656" y="43.307" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5607,7 +5665,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$214" library="LED_OUT" package="LED_OUT0" value="" x="49.022" y="35.56" smashed="yes" rot="MR0"/>
 <element name="U$215" library="OUT" package="OUT0" value="" x="45.466" y="43.053" smashed="yes"/>
 <element name="U$216" library="Power" package="POWER0" value="" x="42.926" y="37.465" smashed="yes" rot="MR0"/>
-<element name="U$217" library="Switch" package="SWITCH0" value="" x="43.053" y="35.433" smashed="yes" rot="MR0"/>
+<element name="U$217" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="43.053" y="35.433" smashed="yes" rot="MR0"/>
 <element name="U$218" library="GPIO1" package="GPIO10" value="" x="43.688" y="27.559" smashed="yes" rot="MR90"/>
 <element name="U$219" library="GPIO2" package="GPIO20" value="" x="33.528" y="49.784" smashed="yes" rot="MR270"/>
 <element name="U$220" library="3.3V_Pointer" package="3#3V0" value="" x="38.608" y="27.559" smashed="yes" rot="MR90"/>
@@ -5685,7 +5743,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="70.866" y="35.814" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="78.994" y="35.814" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U22" library="New_Parts" package="MSOP8" value="PCA9536" x="64.516" y="38.608" smashed="yes" rot="R180">
+<element name="U22" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="64.516" y="38.608" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.151" y="38.989" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="64.516" y="38.608" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5719,7 +5777,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$238" library="Labels-0_04" package="SCL9" value="" x="59.436" y="27.559" smashed="yes" rot="R90"/>
 <element name="Q8" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="63.754" y="43.053" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.5" y="44.323" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="63.754" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="63.754" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R61" library="SparkFun-Resistors" package="0603" value="1k" x="67.564" y="43.307" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5751,7 +5809,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$246" library="LED_OUT" package="LED_OUT0" value="" x="74.93" y="35.56" smashed="yes" rot="MR0"/>
 <element name="U$247" library="OUT" package="OUT0" value="" x="71.374" y="43.053" smashed="yes"/>
 <element name="U$248" library="Power" package="POWER0" value="" x="68.834" y="37.465" smashed="yes" rot="MR0"/>
-<element name="U$249" library="Switch" package="SWITCH0" value="" x="68.961" y="35.433" smashed="yes" rot="MR0"/>
+<element name="U$249" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="68.961" y="35.433" smashed="yes" rot="MR0"/>
 <element name="U$250" library="GPIO1" package="GPIO10" value="" x="69.596" y="27.559" smashed="yes" rot="MR90"/>
 <element name="U$251" library="GPIO2" package="GPIO20" value="" x="59.436" y="49.784" smashed="yes" rot="MR270"/>
 <element name="U$252" library="3.3V_Pointer" package="3#3V0" value="" x="64.516" y="27.559" smashed="yes" rot="MR90"/>
@@ -5829,7 +5887,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="96.774" y="35.814" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="104.902" y="35.814" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U25" library="New_Parts" package="MSOP8" value="PCA9536" x="90.424" y="38.608" smashed="yes" rot="R180">
+<element name="U25" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="90.424" y="38.608" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.059" y="38.989" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="90.424" y="38.608" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5863,7 +5921,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$270" library="Labels-0_04" package="SCL9" value="" x="85.344" y="27.559" smashed="yes" rot="R90"/>
 <element name="Q9" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="89.662" y="43.053" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.408" y="44.323" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="89.662" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="89.662" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R69" library="SparkFun-Resistors" package="0603" value="1k" x="93.472" y="43.307" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5895,7 +5953,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$278" library="LED_OUT" package="LED_OUT0" value="" x="100.838" y="35.56" smashed="yes" rot="MR0"/>
 <element name="U$279" library="OUT" package="OUT0" value="" x="97.282" y="43.053" smashed="yes"/>
 <element name="U$280" library="Power" package="POWER0" value="" x="94.742" y="37.465" smashed="yes" rot="MR0"/>
-<element name="U$281" library="Switch" package="SWITCH0" value="" x="94.869" y="35.433" smashed="yes" rot="MR0"/>
+<element name="U$281" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="94.869" y="35.433" smashed="yes" rot="MR0"/>
 <element name="U$282" library="GPIO1" package="GPIO10" value="" x="95.504" y="27.559" smashed="yes" rot="MR90"/>
 <element name="U$283" library="GPIO2" package="GPIO20" value="" x="85.344" y="49.784" smashed="yes" rot="MR270"/>
 <element name="U$284" library="3.3V_Pointer" package="3#3V0" value="" x="90.424" y="27.559" smashed="yes" rot="MR90"/>
@@ -5973,7 +6031,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="122.682" y="35.814" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="130.81" y="35.814" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U28" library="New_Parts" package="MSOP8" value="PCA9536" x="116.332" y="38.608" smashed="yes" rot="R180">
+<element name="U28" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="116.332" y="38.608" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.967" y="38.989" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="116.332" y="38.608" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6007,7 +6065,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$302" library="Labels-0_04" package="SCL9" value="" x="111.252" y="27.559" smashed="yes" rot="R90"/>
 <element name="Q10" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="115.57" y="43.053" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.316" y="44.323" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="115.57" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="115.57" y="43.053" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R77" library="SparkFun-Resistors" package="0603" value="1k" x="119.38" y="43.307" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.618" y="43.307" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6039,7 +6097,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$310" library="LED_OUT" package="LED_OUT0" value="" x="126.746" y="35.56" smashed="yes" rot="MR0"/>
 <element name="U$311" library="OUT" package="OUT0" value="" x="123.19" y="43.053" smashed="yes"/>
 <element name="U$312" library="Power" package="POWER0" value="" x="120.65" y="37.465" smashed="yes" rot="MR0"/>
-<element name="U$313" library="Switch" package="SWITCH0" value="" x="120.777" y="35.433" smashed="yes" rot="MR0"/>
+<element name="U$313" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="120.777" y="35.433" smashed="yes" rot="MR0"/>
 <element name="U$314" library="GPIO1" package="GPIO10" value="" x="121.412" y="27.559" smashed="yes" rot="MR90"/>
 <element name="U$315" library="GPIO2" package="GPIO20" value="" x="111.252" y="49.784" smashed="yes" rot="MR270"/>
 <element name="U$316" library="3.3V_Pointer" package="3#3V0" value="" x="116.332" y="27.559" smashed="yes" rot="MR90"/>
@@ -6117,7 +6175,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="19.05" y="61.722" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="27.178" y="61.722" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U31" library="New_Parts" package="MSOP8" value="PCA9536" x="12.7" y="64.516" smashed="yes" rot="R180">
+<element name="U31" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="12.7" y="64.516" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="64.897" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="12.7" y="64.516" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6151,7 +6209,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$334" library="Labels-0_04" package="SCL9" value="" x="7.62" y="53.467" smashed="yes" rot="R90"/>
 <element name="Q11" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="11.938" y="68.961" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.684" y="70.231" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="11.938" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="11.938" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R85" library="SparkFun-Resistors" package="0603" value="1k" x="15.748" y="69.215" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="69.215" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6183,7 +6241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$342" library="LED_OUT" package="LED_OUT0" value="" x="23.114" y="61.468" smashed="yes" rot="MR0"/>
 <element name="U$343" library="OUT" package="OUT0" value="" x="19.558" y="68.961" smashed="yes"/>
 <element name="U$344" library="Power" package="POWER0" value="" x="17.018" y="63.373" smashed="yes" rot="MR0"/>
-<element name="U$345" library="Switch" package="SWITCH0" value="" x="17.145" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$345" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="17.145" y="61.341" smashed="yes" rot="MR0"/>
 <element name="U$346" library="GPIO1" package="GPIO10" value="" x="17.78" y="53.467" smashed="yes" rot="MR90"/>
 <element name="U$347" library="GPIO2" package="GPIO20" value="" x="7.62" y="75.692" smashed="yes" rot="MR270"/>
 <element name="U$348" library="3.3V_Pointer" package="3#3V0" value="" x="12.7" y="53.467" smashed="yes" rot="MR90"/>
@@ -6261,7 +6319,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="44.958" y="61.722" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="53.086" y="61.722" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U34" library="New_Parts" package="MSOP8" value="PCA9536" x="38.608" y="64.516" smashed="yes" rot="R180">
+<element name="U34" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="38.608" y="64.516" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.243" y="64.897" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="38.608" y="64.516" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6295,7 +6353,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$366" library="Labels-0_04" package="SCL9" value="" x="33.528" y="53.467" smashed="yes" rot="R90"/>
 <element name="Q12" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="37.846" y="68.961" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.592" y="70.231" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="37.846" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="37.846" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R93" library="SparkFun-Resistors" package="0603" value="1k" x="41.656" y="69.215" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="69.215" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6327,7 +6385,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$374" library="LED_OUT" package="LED_OUT0" value="" x="49.022" y="61.468" smashed="yes" rot="MR0"/>
 <element name="U$375" library="OUT" package="OUT0" value="" x="45.466" y="68.961" smashed="yes"/>
 <element name="U$376" library="Power" package="POWER0" value="" x="42.926" y="63.373" smashed="yes" rot="MR0"/>
-<element name="U$377" library="Switch" package="SWITCH0" value="" x="43.053" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$377" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="43.053" y="61.341" smashed="yes" rot="MR0"/>
 <element name="U$378" library="GPIO1" package="GPIO10" value="" x="43.688" y="53.467" smashed="yes" rot="MR90"/>
 <element name="U$379" library="GPIO2" package="GPIO20" value="" x="33.528" y="75.692" smashed="yes" rot="MR270"/>
 <element name="U$380" library="3.3V_Pointer" package="3#3V0" value="" x="38.608" y="53.467" smashed="yes" rot="MR90"/>
@@ -6405,7 +6463,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="70.866" y="61.722" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="78.994" y="61.722" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U37" library="New_Parts" package="MSOP8" value="PCA9536" x="64.516" y="64.516" smashed="yes" rot="R180">
+<element name="U37" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="64.516" y="64.516" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.151" y="64.897" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="64.516" y="64.516" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6439,7 +6497,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$398" library="Labels-0_04" package="SCL9" value="" x="59.436" y="53.467" smashed="yes" rot="R90"/>
 <element name="Q13" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="63.754" y="68.961" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.5" y="70.231" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="63.754" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="63.754" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R101" library="SparkFun-Resistors" package="0603" value="1k" x="67.564" y="69.215" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="69.215" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6471,7 +6529,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$406" library="LED_OUT" package="LED_OUT0" value="" x="74.93" y="61.468" smashed="yes" rot="MR0"/>
 <element name="U$407" library="OUT" package="OUT0" value="" x="71.374" y="68.961" smashed="yes"/>
 <element name="U$408" library="Power" package="POWER0" value="" x="68.834" y="63.373" smashed="yes" rot="MR0"/>
-<element name="U$409" library="Switch" package="SWITCH0" value="" x="68.961" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$409" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="68.961" y="61.341" smashed="yes" rot="MR0"/>
 <element name="U$410" library="GPIO1" package="GPIO10" value="" x="69.596" y="53.467" smashed="yes" rot="MR90"/>
 <element name="U$411" library="GPIO2" package="GPIO20" value="" x="59.436" y="75.692" smashed="yes" rot="MR270"/>
 <element name="U$412" library="3.3V_Pointer" package="3#3V0" value="" x="64.516" y="53.467" smashed="yes" rot="MR90"/>
@@ -6549,7 +6607,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="96.774" y="61.722" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="104.902" y="61.722" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U40" library="New_Parts" package="MSOP8" value="PCA9536" x="90.424" y="64.516" smashed="yes" rot="R180">
+<element name="U40" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="90.424" y="64.516" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.059" y="64.897" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="90.424" y="64.516" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6583,7 +6641,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$430" library="Labels-0_04" package="SCL9" value="" x="85.344" y="53.467" smashed="yes" rot="R90"/>
 <element name="Q14" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="89.662" y="68.961" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.408" y="70.231" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="89.662" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="89.662" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R109" library="SparkFun-Resistors" package="0603" value="1k" x="93.472" y="69.215" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="69.215" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6615,7 +6673,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$438" library="LED_OUT" package="LED_OUT0" value="" x="100.838" y="61.468" smashed="yes" rot="MR0"/>
 <element name="U$439" library="OUT" package="OUT0" value="" x="97.282" y="68.961" smashed="yes"/>
 <element name="U$440" library="Power" package="POWER0" value="" x="94.742" y="63.373" smashed="yes" rot="MR0"/>
-<element name="U$441" library="Switch" package="SWITCH0" value="" x="94.869" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$441" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="94.869" y="61.341" smashed="yes" rot="MR0"/>
 <element name="U$442" library="GPIO1" package="GPIO10" value="" x="95.504" y="53.467" smashed="yes" rot="MR90"/>
 <element name="U$443" library="GPIO2" package="GPIO20" value="" x="85.344" y="75.692" smashed="yes" rot="MR270"/>
 <element name="U$444" library="3.3V_Pointer" package="3#3V0" value="" x="90.424" y="53.467" smashed="yes" rot="MR90"/>
@@ -6693,7 +6751,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="122.682" y="61.722" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="130.81" y="61.722" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U43" library="New_Parts" package="MSOP8" value="PCA9536" x="116.332" y="64.516" smashed="yes" rot="R180">
+<element name="U43" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="116.332" y="64.516" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.967" y="64.897" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="116.332" y="64.516" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6727,7 +6785,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$462" library="Labels-0_04" package="SCL9" value="" x="111.252" y="53.467" smashed="yes" rot="R90"/>
 <element name="Q15" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="115.57" y="68.961" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.316" y="70.231" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="115.57" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="115.57" y="68.961" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R117" library="SparkFun-Resistors" package="0603" value="1k" x="119.38" y="69.215" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.618" y="69.215" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6759,7 +6817,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$470" library="LED_OUT" package="LED_OUT0" value="" x="126.746" y="61.468" smashed="yes" rot="MR0"/>
 <element name="U$471" library="OUT" package="OUT0" value="" x="123.19" y="68.961" smashed="yes"/>
 <element name="U$472" library="Power" package="POWER0" value="" x="120.65" y="63.373" smashed="yes" rot="MR0"/>
-<element name="U$473" library="Switch" package="SWITCH0" value="" x="120.777" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$473" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="120.777" y="61.341" smashed="yes" rot="MR0"/>
 <element name="U$474" library="GPIO1" package="GPIO10" value="" x="121.412" y="53.467" smashed="yes" rot="MR90"/>
 <element name="U$475" library="GPIO2" package="GPIO20" value="" x="111.252" y="75.692" smashed="yes" rot="MR270"/>
 <element name="U$476" library="3.3V_Pointer" package="3#3V0" value="" x="116.332" y="53.467" smashed="yes" rot="MR90"/>
@@ -6837,7 +6895,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="19.05" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="27.178" y="87.63" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U46" library="New_Parts" package="MSOP8" value="PCA9536" x="12.7" y="90.424" smashed="yes" rot="R180">
+<element name="U46" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="12.7" y="90.424" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="90.805" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="12.7" y="90.424" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6871,7 +6929,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$494" library="Labels-0_04" package="SCL9" value="" x="7.62" y="79.375" smashed="yes" rot="R90"/>
 <element name="Q16" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="11.938" y="94.869" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.684" y="96.139" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="11.938" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="11.938" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R125" library="SparkFun-Resistors" package="0603" value="1k" x="15.748" y="95.123" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="95.123" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6903,7 +6961,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$502" library="LED_OUT" package="LED_OUT0" value="" x="23.114" y="87.376" smashed="yes" rot="MR0"/>
 <element name="U$503" library="OUT" package="OUT0" value="" x="19.558" y="94.869" smashed="yes"/>
 <element name="U$504" library="Power" package="POWER0" value="" x="17.018" y="89.281" smashed="yes" rot="MR0"/>
-<element name="U$505" library="Switch" package="SWITCH0" value="" x="17.145" y="87.249" smashed="yes" rot="MR0"/>
+<element name="U$505" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="17.145" y="87.249" smashed="yes" rot="MR0"/>
 <element name="U$506" library="GPIO1" package="GPIO10" value="" x="17.78" y="79.375" smashed="yes" rot="MR90"/>
 <element name="U$507" library="GPIO2" package="GPIO20" value="" x="7.62" y="101.6" smashed="yes" rot="MR270"/>
 <element name="U$508" library="3.3V_Pointer" package="3#3V0" value="" x="12.7" y="79.375" smashed="yes" rot="MR90"/>
@@ -6981,7 +7039,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="44.958" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="53.086" y="87.63" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U49" library="New_Parts" package="MSOP8" value="PCA9536" x="38.608" y="90.424" smashed="yes" rot="R180">
+<element name="U49" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="38.608" y="90.424" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.243" y="90.805" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="38.608" y="90.424" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7015,7 +7073,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$526" library="Labels-0_04" package="SCL9" value="" x="33.528" y="79.375" smashed="yes" rot="R90"/>
 <element name="Q17" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="37.846" y="94.869" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.592" y="96.139" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="37.846" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="37.846" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R133" library="SparkFun-Resistors" package="0603" value="1k" x="41.656" y="95.123" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="95.123" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7047,7 +7105,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$534" library="LED_OUT" package="LED_OUT0" value="" x="49.022" y="87.376" smashed="yes" rot="MR0"/>
 <element name="U$535" library="OUT" package="OUT0" value="" x="45.466" y="94.869" smashed="yes"/>
 <element name="U$536" library="Power" package="POWER0" value="" x="42.926" y="89.281" smashed="yes" rot="MR0"/>
-<element name="U$537" library="Switch" package="SWITCH0" value="" x="43.053" y="87.249" smashed="yes" rot="MR0"/>
+<element name="U$537" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="43.053" y="87.249" smashed="yes" rot="MR0"/>
 <element name="U$538" library="GPIO1" package="GPIO10" value="" x="43.688" y="79.375" smashed="yes" rot="MR90"/>
 <element name="U$539" library="GPIO2" package="GPIO20" value="" x="33.528" y="101.6" smashed="yes" rot="MR270"/>
 <element name="U$540" library="3.3V_Pointer" package="3#3V0" value="" x="38.608" y="79.375" smashed="yes" rot="MR90"/>
@@ -7125,7 +7183,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="70.866" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="78.994" y="87.63" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U52" library="New_Parts" package="MSOP8" value="PCA9536" x="64.516" y="90.424" smashed="yes" rot="R180">
+<element name="U52" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="64.516" y="90.424" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.151" y="90.805" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="64.516" y="90.424" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7159,7 +7217,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$558" library="Labels-0_04" package="SCL9" value="" x="59.436" y="79.375" smashed="yes" rot="R90"/>
 <element name="Q18" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="63.754" y="94.869" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.5" y="96.139" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="63.754" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="63.754" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R141" library="SparkFun-Resistors" package="0603" value="1k" x="67.564" y="95.123" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="95.123" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7191,7 +7249,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$566" library="LED_OUT" package="LED_OUT0" value="" x="74.93" y="87.376" smashed="yes" rot="MR0"/>
 <element name="U$567" library="OUT" package="OUT0" value="" x="71.374" y="94.869" smashed="yes"/>
 <element name="U$568" library="Power" package="POWER0" value="" x="68.834" y="89.281" smashed="yes" rot="MR0"/>
-<element name="U$569" library="Switch" package="SWITCH0" value="" x="68.961" y="87.249" smashed="yes" rot="MR0"/>
+<element name="U$569" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="68.961" y="87.249" smashed="yes" rot="MR0"/>
 <element name="U$570" library="GPIO1" package="GPIO10" value="" x="69.596" y="79.375" smashed="yes" rot="MR90"/>
 <element name="U$571" library="GPIO2" package="GPIO20" value="" x="59.436" y="101.6" smashed="yes" rot="MR270"/>
 <element name="U$572" library="3.3V_Pointer" package="3#3V0" value="" x="64.516" y="79.375" smashed="yes" rot="MR90"/>
@@ -7269,7 +7327,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="96.774" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="104.902" y="87.63" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U55" library="New_Parts" package="MSOP8" value="PCA9536" x="90.424" y="90.424" smashed="yes" rot="R180">
+<element name="U55" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="90.424" y="90.424" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.059" y="90.805" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="90.424" y="90.424" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7303,7 +7361,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$590" library="Labels-0_04" package="SCL9" value="" x="85.344" y="79.375" smashed="yes" rot="R90"/>
 <element name="Q19" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="89.662" y="94.869" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.408" y="96.139" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="89.662" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="89.662" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R149" library="SparkFun-Resistors" package="0603" value="1k" x="93.472" y="95.123" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="95.123" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7335,7 +7393,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$598" library="LED_OUT" package="LED_OUT0" value="" x="100.838" y="87.376" smashed="yes" rot="MR0"/>
 <element name="U$599" library="OUT" package="OUT0" value="" x="97.282" y="94.869" smashed="yes"/>
 <element name="U$600" library="Power" package="POWER0" value="" x="94.742" y="89.281" smashed="yes" rot="MR0"/>
-<element name="U$601" library="Switch" package="SWITCH0" value="" x="94.869" y="87.249" smashed="yes" rot="MR0"/>
+<element name="U$601" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="94.869" y="87.249" smashed="yes" rot="MR0"/>
 <element name="U$602" library="GPIO1" package="GPIO10" value="" x="95.504" y="79.375" smashed="yes" rot="MR90"/>
 <element name="U$603" library="GPIO2" package="GPIO20" value="" x="85.344" y="101.6" smashed="yes" rot="MR270"/>
 <element name="U$604" library="3.3V_Pointer" package="3#3V0" value="" x="90.424" y="79.375" smashed="yes" rot="MR90"/>
@@ -7413,7 +7471,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="122.682" y="87.63" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="130.81" y="87.63" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U58" library="New_Parts" package="MSOP8" value="PCA9536" x="116.332" y="90.424" smashed="yes" rot="R180">
+<element name="U58" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="116.332" y="90.424" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.967" y="90.805" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="116.332" y="90.424" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7447,7 +7505,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$622" library="Labels-0_04" package="SCL9" value="" x="111.252" y="79.375" smashed="yes" rot="R90"/>
 <element name="Q20" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="115.57" y="94.869" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.316" y="96.139" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="115.57" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="115.57" y="94.869" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R157" library="SparkFun-Resistors" package="0603" value="1k" x="119.38" y="95.123" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.618" y="95.123" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7479,7 +7537,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$630" library="LED_OUT" package="LED_OUT0" value="" x="126.746" y="87.376" smashed="yes" rot="MR0"/>
 <element name="U$631" library="OUT" package="OUT0" value="" x="123.19" y="94.869" smashed="yes"/>
 <element name="U$632" library="Power" package="POWER0" value="" x="120.65" y="89.281" smashed="yes" rot="MR0"/>
-<element name="U$633" library="Switch" package="SWITCH0" value="" x="120.777" y="87.249" smashed="yes" rot="MR0"/>
+<element name="U$633" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="120.777" y="87.249" smashed="yes" rot="MR0"/>
 <element name="U$634" library="GPIO1" package="GPIO10" value="" x="121.412" y="79.375" smashed="yes" rot="MR90"/>
 <element name="U$635" library="GPIO2" package="GPIO20" value="" x="111.252" y="101.6" smashed="yes" rot="MR270"/>
 <element name="U$636" library="3.3V_Pointer" package="3#3V0" value="" x="116.332" y="79.375" smashed="yes" rot="MR90"/>
@@ -7557,7 +7615,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="19.05" y="113.538" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="27.178" y="113.538" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U61" library="New_Parts" package="MSOP8" value="PCA9536" x="12.7" y="116.332" smashed="yes" rot="R180">
+<element name="U61" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="12.7" y="116.332" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="116.713" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="12.7" y="116.332" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7591,7 +7649,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$654" library="Labels-0_04" package="SCL9" value="" x="7.62" y="105.283" smashed="yes" rot="R90"/>
 <element name="Q21" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="11.938" y="120.777" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.684" y="122.047" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="11.938" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="11.938" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R165" library="SparkFun-Resistors" package="0603" value="1k" x="15.748" y="121.031" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="121.031" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7623,7 +7681,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$662" library="LED_OUT" package="LED_OUT0" value="" x="23.114" y="113.284" smashed="yes" rot="MR0"/>
 <element name="U$663" library="OUT" package="OUT0" value="" x="19.558" y="120.777" smashed="yes"/>
 <element name="U$664" library="Power" package="POWER0" value="" x="17.018" y="115.189" smashed="yes" rot="MR0"/>
-<element name="U$665" library="Switch" package="SWITCH0" value="" x="17.145" y="113.157" smashed="yes" rot="MR0"/>
+<element name="U$665" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="17.145" y="113.157" smashed="yes" rot="MR0"/>
 <element name="U$666" library="GPIO1" package="GPIO10" value="" x="17.78" y="105.283" smashed="yes" rot="MR90"/>
 <element name="U$667" library="GPIO2" package="GPIO20" value="" x="7.62" y="127.508" smashed="yes" rot="MR270"/>
 <element name="U$668" library="3.3V_Pointer" package="3#3V0" value="" x="12.7" y="105.283" smashed="yes" rot="MR90"/>
@@ -7701,7 +7759,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="44.958" y="113.538" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="53.086" y="113.538" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U64" library="New_Parts" package="MSOP8" value="PCA9536" x="38.608" y="116.332" smashed="yes" rot="R180">
+<element name="U64" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="38.608" y="116.332" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.243" y="116.713" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="38.608" y="116.332" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7735,7 +7793,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$686" library="Labels-0_04" package="SCL9" value="" x="33.528" y="105.283" smashed="yes" rot="R90"/>
 <element name="Q22" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="37.846" y="120.777" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.592" y="122.047" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="37.846" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="37.846" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R173" library="SparkFun-Resistors" package="0603" value="1k" x="41.656" y="121.031" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="121.031" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7767,7 +7825,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$694" library="LED_OUT" package="LED_OUT0" value="" x="49.022" y="113.284" smashed="yes" rot="MR0"/>
 <element name="U$695" library="OUT" package="OUT0" value="" x="45.466" y="120.777" smashed="yes"/>
 <element name="U$696" library="Power" package="POWER0" value="" x="42.926" y="115.189" smashed="yes" rot="MR0"/>
-<element name="U$697" library="Switch" package="SWITCH0" value="" x="43.053" y="113.157" smashed="yes" rot="MR0"/>
+<element name="U$697" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="43.053" y="113.157" smashed="yes" rot="MR0"/>
 <element name="U$698" library="GPIO1" package="GPIO10" value="" x="43.688" y="105.283" smashed="yes" rot="MR90"/>
 <element name="U$699" library="GPIO2" package="GPIO20" value="" x="33.528" y="127.508" smashed="yes" rot="MR270"/>
 <element name="U$700" library="3.3V_Pointer" package="3#3V0" value="" x="38.608" y="105.283" smashed="yes" rot="MR90"/>
@@ -7845,7 +7903,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="70.866" y="113.538" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="78.994" y="113.538" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U67" library="New_Parts" package="MSOP8" value="PCA9536" x="64.516" y="116.332" smashed="yes" rot="R180">
+<element name="U67" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="64.516" y="116.332" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.151" y="116.713" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="64.516" y="116.332" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7879,7 +7937,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$718" library="Labels-0_04" package="SCL9" value="" x="59.436" y="105.283" smashed="yes" rot="R90"/>
 <element name="Q23" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="63.754" y="120.777" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.5" y="122.047" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="63.754" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="63.754" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R181" library="SparkFun-Resistors" package="0603" value="1k" x="67.564" y="121.031" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="121.031" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7911,7 +7969,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$726" library="LED_OUT" package="LED_OUT0" value="" x="74.93" y="113.284" smashed="yes" rot="MR0"/>
 <element name="U$727" library="OUT" package="OUT0" value="" x="71.374" y="120.777" smashed="yes"/>
 <element name="U$728" library="Power" package="POWER0" value="" x="68.834" y="115.189" smashed="yes" rot="MR0"/>
-<element name="U$729" library="Switch" package="SWITCH0" value="" x="68.961" y="113.157" smashed="yes" rot="MR0"/>
+<element name="U$729" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="68.961" y="113.157" smashed="yes" rot="MR0"/>
 <element name="U$730" library="GPIO1" package="GPIO10" value="" x="69.596" y="105.283" smashed="yes" rot="MR90"/>
 <element name="U$731" library="GPIO2" package="GPIO20" value="" x="59.436" y="127.508" smashed="yes" rot="MR270"/>
 <element name="U$732" library="3.3V_Pointer" package="3#3V0" value="" x="64.516" y="105.283" smashed="yes" rot="MR90"/>
@@ -7989,7 +8047,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="96.774" y="113.538" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="104.902" y="113.538" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U70" library="New_Parts" package="MSOP8" value="PCA9536" x="90.424" y="116.332" smashed="yes" rot="R180">
+<element name="U70" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="90.424" y="116.332" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.059" y="116.713" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="90.424" y="116.332" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -8023,7 +8081,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$750" library="Labels-0_04" package="SCL9" value="" x="85.344" y="105.283" smashed="yes" rot="R90"/>
 <element name="Q24" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="89.662" y="120.777" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.408" y="122.047" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="89.662" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="89.662" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R189" library="SparkFun-Resistors" package="0603" value="1k" x="93.472" y="121.031" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="121.031" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -8055,7 +8113,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$758" library="LED_OUT" package="LED_OUT0" value="" x="100.838" y="113.284" smashed="yes" rot="MR0"/>
 <element name="U$759" library="OUT" package="OUT0" value="" x="97.282" y="120.777" smashed="yes"/>
 <element name="U$760" library="Power" package="POWER0" value="" x="94.742" y="115.189" smashed="yes" rot="MR0"/>
-<element name="U$761" library="Switch" package="SWITCH0" value="" x="94.869" y="113.157" smashed="yes" rot="MR0"/>
+<element name="U$761" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="94.869" y="113.157" smashed="yes" rot="MR0"/>
 <element name="U$762" library="GPIO1" package="GPIO10" value="" x="95.504" y="105.283" smashed="yes" rot="MR90"/>
 <element name="U$763" library="GPIO2" package="GPIO20" value="" x="85.344" y="127.508" smashed="yes" rot="MR270"/>
 <element name="U$764" library="3.3V_Pointer" package="3#3V0" value="" x="90.424" y="105.283" smashed="yes" rot="MR90"/>
@@ -8133,7 +8191,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="122.682" y="113.538" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="130.81" y="113.538" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="U73" library="New_Parts" package="MSOP8" value="PCA9536" x="116.332" y="116.332" smashed="yes" rot="R180">
+<element name="U73" library="SparkFun-IC-Conversion" package="MSOP8" value="PCA9536" x="116.332" y="116.332" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.967" y="116.713" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-15034" x="116.332" y="116.332" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -8167,7 +8225,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$782" library="Labels-0_04" package="SCL9" value="" x="111.252" y="105.283" smashed="yes" rot="R90"/>
 <element name="Q25" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="115.57" y="120.777" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.316" y="122.047" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRAN-14388" x="115.57" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="TRANS-14388" x="115.57" y="120.777" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R197" library="SparkFun-Resistors" package="0603" value="1k" x="119.38" y="121.031" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.618" y="121.031" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -8199,7 +8257,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$790" library="LED_OUT" package="LED_OUT0" value="" x="126.746" y="113.284" smashed="yes" rot="MR0"/>
 <element name="U$791" library="OUT" package="OUT0" value="" x="123.19" y="120.777" smashed="yes"/>
 <element name="U$792" library="Power" package="POWER0" value="" x="120.65" y="115.189" smashed="yes" rot="MR0"/>
-<element name="U$793" library="Switch" package="SWITCH0" value="" x="120.777" y="113.157" smashed="yes" rot="MR0"/>
+<element name="U$793" library="switch" library_urn="urn:adsk.eagle:library:380" package="SWITCH0" value="" x="120.777" y="113.157" smashed="yes" rot="MR0"/>
 <element name="U$794" library="GPIO1" package="GPIO10" value="" x="121.412" y="105.283" smashed="yes" rot="MR90"/>
 <element name="U$795" library="GPIO2" package="GPIO20" value="" x="111.252" y="127.508" smashed="yes" rot="MR270"/>
 <element name="U$796" library="3.3V_Pointer" package="3#3V0" value="" x="116.332" y="105.283" smashed="yes" rot="MR90"/>
@@ -8232,6 +8290,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="122.1105" y="131.1275" smashed="yes"/>
 <element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="122.1105" y="131.1275" smashed="yes" rot="MR0"/>
 <element name="E$5" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="6.858" y="-2.0955" smashed="yes"/>
+<element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="6.858" y="-2.0955" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -19695,6 +19754,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </board>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
