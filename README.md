@@ -2,7 +2,7 @@
 
 A power switch for your Qwiic system.
 
-![Power_Switch-01.jpg](https://cdn.sparkfun.com//assets/parts/1/5/6/2/8/16740-Power_Switch-01.jpg)
+[![Qwiic Power Switch (SPX-16740)](https://cdn.sparkfun.com//assets/parts/1/5/6/2/8/16740-Power_Switch-01.jpg)](https://www.sparkfun.com/products/16740)
 
 [Qwiic Power Switch (SPX-16740)](https://www.sparkfun.com/products/16740)
 
@@ -20,11 +20,23 @@ The heart of the Qwiic Power Switch is the TI PCA9536 4-Bit I2C I/O Expander. We
 1 and 2 so you can use them as general purpose inputs or outputs.
 
 ## Repository Contents
-- **/Hardware** - Eagle schematic and PCB design files
+
+- **/Documents** - Datasheets etc.
+- **/Hardware** - Eagle design files
 - **LICENSE.md** contains the licence information
 
 ## Library
 
 - **[Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Power_Switch_Arduino_Library)** - Library for the power switch
 
-**_Your friends at SparkFun_**
+## License Information
+
+This product is _**open source**_!
+
+Please review the LICENSE.md file for license information.
+
+If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=123).
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
